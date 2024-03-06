@@ -1,4 +1,5 @@
 toolchain/
 out/
 arch/arm64/boot/Image
-KernelSU/
+scripts/cfp/common.pyc
+scripts/crypto/__pycache__/
