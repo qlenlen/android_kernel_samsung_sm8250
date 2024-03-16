@@ -1,0 +1,4 @@
+[submodule "KernelSU"]
+	path = KernelSU
+	url = git@github.com:tiann/KernelSU.git
+	ignore = dirty
