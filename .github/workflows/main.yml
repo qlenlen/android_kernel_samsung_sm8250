@@ -52,7 +52,7 @@ jobs:
           artifacts: "assets/*.zip"
           allowUpdates: true
           name: "kernel_samsung_t970"
-          tag: "CI_${{ env.TAG }}"
+          tag: "CI_BUILD_${{ github.run_number }}"
           body: |
             ### Note: 
             Flash the kernel zip with kernel flasher or TWRP
